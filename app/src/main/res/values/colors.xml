@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEB80B</color>
+    <color name="colorPrimaryDark">#FEB80B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cart_badge">#e600ff</color>
+
+
+</resources>

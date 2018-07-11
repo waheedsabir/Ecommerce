@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+
+    android:gravity="bottom"
+    android:orientation="vertical"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:orientation="horizontal"
+
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                android:background="@drawable/boarder_shop_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/mar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boarder_shop_name"
+                    android:ellipsize="marquee"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:marqueeRepeatLimit="marquee_forever"
+
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="Waheed"
+
+                    android:textAlignment="gravity"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:src="@mipmap/ic_launcher_round"
+                app:civ_border_color="#feb80d"
+                app:civ_border_width="3dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

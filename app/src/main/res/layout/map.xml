@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.waheedsabir.shop.map.Map">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".map.Map" />
+
+    <Button
+        android:onClick="next"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/boarder_shop_name"
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Yes , Continue" />
+
+    <TextView
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="5dip"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="50dp"
+        android:background="@drawable/boarder_shop_name"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Loading..."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cod">
+
+
+    <TextView
+
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="25dp"
+        android:text="COD Detail"
+        android:textAlignment="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:focusable="false"
+        android:background="@drawable/boarder"
+        android:hint="Order ID"
+        android:id="@+id/id_p"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:focusable="false"
+        android:background="@drawable/boarder"
+        android:hint="Price"
+        android:id="@+id/pri"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:background="@drawable/boarder"
+        android:hint="Full name"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boarder"
+        android:hint="Full Address"
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boarder"
+        android:hint="Contact #"
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+
+    android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center|bottom"
+        android:background="@drawable/boarder_shop_name"
+        android:onClick="confirm"
+        android:text="Confirm"
+        android:textColor="#ffffff"
+
+        />
+</LinearLayout>
